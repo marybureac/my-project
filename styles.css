@@ -1,0 +1,162 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header-animation {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.button-animation {
+    transition: background-color 0.3s ease;
+}
+
+.button-animation:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для книг */
+.book {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.book-image {
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.book-image:hover {
+    transform: scale(1.1);
+}
+
+.book-title {
+    margin-top: 10px;
+}
+
+
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header-animation {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.button-animation {
+    transition: background-color 0.3s ease;
+}
+
+.button-animation:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для информационного блока */
+.info-block {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-block h2 {
+    margin-top: 0;
+}
+
+/* Стили для слайдера */
+.slider {
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+
+.slide {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.slide img {
+    width: 150px; /* Уменьшаем размер изображений */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.slide-caption {
+    margin-top: 10px;
+    text-align: center;
+}
